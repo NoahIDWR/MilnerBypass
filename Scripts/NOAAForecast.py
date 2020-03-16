@@ -132,7 +132,7 @@ def NOAAReg(PredictionMonth, PredictionDay, StopMonth=0):
     return Acc
 
 if __name__ == '__main__':
-    Year = 'FullRegression'
+    Year = 'SingleRegression'
     
     if Year == 'SingleRegression':
         month = 3
