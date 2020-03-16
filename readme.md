@@ -43,18 +43,22 @@ The file contains several tabs, which are used in various programs.
 ### Inputs.xlsx
 This file is used in the NOAA forecast and is mostly collected from USBR HydroMet
 
+### 120 Day Outlook
+All the historical NOAA forecasts in the archives
+
 ## Analyses
 There are some programs in this folder that I will not go into detail about. They are either old versions of existing programs or abandoned analyses. The listed programs are the programs of most interest. At some point, I will likely clean things up and make this into a cleaner design. 
 
 
 ### Modules
 These are repeatedly used in many of the analyses
+* HistoricRecharge - Generates historic recharge data for given parameters
 * HistoricRechargeDistribution.py -  Generates a series of random historical recharge scenarios
 * NOAAPrediction.py - Grabs data from the NOAA website
 * SetFonts.py - Used for plotting purposes
 
 
-### Plots
+### Scripts
 These scripts generate the figures shown in the presentations 
 * CFSRainbow.py - Generates the required capacity under different confidence and Milner bypass scenarios. Takes a while to generate.
 * NOAA_Predictions\NOAAForecast.py - Calculates the regressions for forecasting recharge using NOAA 120 day forecasts
