@@ -47,7 +47,6 @@ This file is used in the NOAA forecast and is mostly collected from USBR HydroMe
 All the historical NOAA forecasts in the archives
 
 ## Analyses
-There are some programs in this folder that I will not go into detail about. They are either old versions of existing programs or abandoned analyses. The listed programs are the programs of most interest. At some point, I will likely clean things up and make this into a cleaner design. 
 
 
 ### Modules
